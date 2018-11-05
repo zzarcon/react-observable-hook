@@ -1,6 +1,6 @@
 {
   "name": "react-observable-hook",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/es5/index.js",
   "description": "Syntax sugar for rxjs observables and React hooks",
   "repository": "https://github.com/zzarcon/react-observable-hook",
