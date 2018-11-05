@@ -1,0 +1,52 @@
+{
+  "name": "react-observable-hook",
+  "version": "0.0.1",
+  "main": "dist/es5/index.js",
+  "description": "Syntax sugar for rxjs observables and React hooks",
+  "repository": "https://github.com/zzarcon/react-observable-hook",
+  "author": "Hector Leon Zarco Garcia <hezarco@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "16.7.0-alpha.0",
+    "rxjs": "^6.3.3",
+    "ts-react-toolbox": "^0.1.22"
+  },
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "scripts": {
+    "bootstrap": "ts-react-toolbox init",
+    "dev": "ts-react-toolbox dev",
+    "test": "ts-react-toolbox test",
+    "test:ci": "ts-react-toolbox test --runInBand --coverage",
+    "build": "ts-react-toolbox build",
+    "release": "ts-react-toolbox release",
+    "lint": "ts-react-toolbox lint",
+    "static": "ts-react-toolbox publish",
+    "format": "ts-react-toolbox format",
+    "analyze": "ts-react-toolbox analyze"
+  },
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "16.7.0-alpha.0",
+    "rxjs": "^6.3.3"
+  },
+  "resolutions": {
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "16.7.0-alpha.0"
+  },
+  "jsnext:main": "dist/es2015/index.js",
+  "module": "dist/es2015/index.js",
+  "types": "dist/es5/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "hook",
+    "rxjs",
+    "observable",
+    "subscription"
+  ]
+}
