@@ -12,8 +12,9 @@ export function useObservable<T>(observable: Observable<T>, getInitialState?: ()
       }
     });
 
-    return () => subscription.unsubscribe();
+    const cancel = () => subscription.unsubscribe();
+    return cancel;
   }, [observable])
   
-  return value;
+  return [value, cancel];
 }
