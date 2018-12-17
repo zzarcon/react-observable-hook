@@ -10,7 +10,7 @@
     "react": "^16.7.0-alpha.0",
     "react-dom": "16.7.0-alpha.0",
     "rxjs": "^6.3.3",
-    "ts-react-toolbox": "^0.1.22"
+    "ts-react-toolbox": "^0.2.2"
   },
   "engines": {
     "node": ">=8.5.0"
@@ -48,5 +48,8 @@
     "rxjs",
     "observable",
     "subscription"
-  ]
+  ],
+  "dependencies": {
+    "react-testing-library": "^5.4.0"
+  }
 }
